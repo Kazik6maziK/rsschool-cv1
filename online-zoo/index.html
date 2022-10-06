@@ -1,0 +1,261 @@
+
+
+<!---подскажите как мне оформлять сайт, при этом уменьшив количество "class"-ов и как делать адаптивную вёрстку
+на счёт адаптивной вёрстки у меня есть три идеи:
+1. либо я делаю по отдельному html файлу для каждого разрешения
+2. либо используя @media
+3. либо офрмляю так чтобы он както сжимался при сужении экрана--->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1600px, initial-scale=1.0">
+    <title>online-zoo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper hd_wrapper">
+            <div class="header-logo">
+                <div class="header-logo_rectangle">
+                    <p class="header-log_inf">PetStory online</p>
+                    <object type="image/svg+xml"class="logo-bamboo" data="./icons/bamboo.svg"></object>
+                </div>
+            </div>
+            <div class="header-nav_div">
+                <a class="header-nav nav1">About</a>
+                <a class="header-nav nav2">Map</a>
+                <a class="header-nav nav3">Zoos</a>
+                <a class="header-nav nav4">Donate</a>
+                <a class="header-nav nav5">Contact us</a>
+                <a class="header-nav nav6">Designed by ©</a>
+            </div>
+        </div>
+    </header>
+    <img>
+        <div class="wrapper main_wrapper"></div>
+            <section class="section1">
+                    <div class="logo_circle"></div>  
+                    <h1 class="logo_circle_text">Watch your <p class="inside_logo_circle_text">favorite</p> animal online</h1>
+                <img class="bq_giant-panda" src="./img/Giant Panda.jpg" alt="Giant Panda">
+                <button class="wm_button"><a class="wm_button_text">WATCH ONLINE</a></button>
+
+            </section>
+        <div class="row2">
+            <section class="section2">
+                <img class="bamboo-cap_img" src="./img/bamboo-cap.jpg" alt="bamboo-cap">
+                <h2 class="bamboo-cap_text text1">The Backstage of the Wilderness World.</h2>
+                <p class="bamboo-cap_text text2">The site was founded on the basis of a volunteer movement to protect and care for animals.</p>
+                <p class="bamboo-cap_text text3">How it works </p>
+                <p class="bamboo-cap_text text4">The main goal is to help the animals, as well as the nature reserves and zoos where they are kept. We are currently working on video projects targeting pandas in China, eagles on an island near Los Angeles, alligators in Florida and gorillas in the Congo. These have a total of more than 1,500 mammals and reptiles.</p>
+            </section>
+            <img class="flower_foto1" src="./img/flower_foto1.png" alt="flower_foto1">
+        </div>
+            <section class="section3">
+                <div class="scroll-animals">
+                    <div class="foto-card foto-card1">
+                        <img class="fotocard1_img" src="./img/animals/Rectangle 5.png" alt="fotocard1_img">
+                        <p class="foto-card_text">giant Pandas</p>
+                        <p class="foto-card_text1">Native to Southwest China</p>
+                        <div class="banan_meat_ico banan_meat_ico1">
+                            <object type="image/svg+xml"class="banana-bamboo_ico banana-bamboo_ico2" data="./icons/banana-bamboo_icon.svg"></object>
+                            <!-- <object type="image/svg+xml"class="meet-fish_ico meet-fish_ico2" data="./icons/meet-fish_icon.svg"></object> -->
+                        </div>
+                    </div>
+
+                    <div class="foto-card foto-card2">
+                        <img class="fotocard1_img" src="./img/animals/Rectangle 5 (1).png" alt="fotocard2_img">
+                        <p class="foto-card_text">Eagles</p>
+                        <p class="foto-card_text1">Native to South America</p>
+                        <div class="banan_meat_ico banan_meat_ico2">
+                            <!-- <object type="image/svg+xml"class="banana-bamboo_ico banana-bamboo_ico1" data="./icons/banana-bamboo_icon.svg"></object> -->
+                            <object type="image/svg+xml"class="meet-fish_ico meet-fish_ico2" data="./icons/meet-fish_icon.svg"></object>
+                        </div>
+                    </div>
+
+                    <div class="foto-card foto-card3 ">
+                        <img class="fotocard1_img" src="./img/animals/Rectangle 5 (2).png" alt="fotocard3_img">
+                        <p class="foto-card_text">Gorillas</p>
+                        <p class="foto-card_text1">Native to Congo</p>
+                        <div class="banan_meat_ico banan_meat_ico3">
+                            <object type="image/svg+xml"class="banana-bamboo_ico banana-bamboo_ico3" data="./icons/banana-bamboo_icon.svg"></object>
+                            <!-- <object type="image/svg+xml"class="meet-fish_ico meet-fish_ico3" data="./icons/meet-fish_icon.svg"></object> -->
+                        </div>
+                    </div>
+
+                    <div class="foto-card foto-card4">
+                        <img class="fotocard1_img" src="./img/animals/Rectangle 5 (3).png" alt="fotocard4_img">
+                        <p class="foto-card_text">Two-toed Sloth</p>
+                        <p class="foto-card_text1">Mesoamerica, South America</p>
+                        <div class="banan_meat_ico banan_meat_ico4">
+                            <object type="image/svg+xml"class="banana-bamboo_ico banana-bamboo_ico4" data="./icons/banana-bamboo_icon.svg"></object>
+                            <!-- <object type="image/svg+xml"class="meet-fish_ico meet-fish_ico4" data="./icons/meet-fish_icon.svg"></object> -->
+                        </div>
+                    </div>
+
+                    <div class="foto-card foto-card5">
+                        <img class="fotocard1_img" src="./img/animals/Rectangle 5 (4).png" alt="fotocard5_img">
+                        <p class="foto-card_text">cheetahs</p>
+                        <p class="foto-card_text1">Native to Africa</p>
+                        <div class="banan_meat_ico banan_meat_ico5">
+                            <!-- <object type="image/svg+xml"class="banana-bamboo_ico banana-bamboo_ico5" data="./icons/banana-bamboo_icon.svg"></object> -->
+                            <object type="image/svg+xml"class="meet-fish_ico meet-fish_ico5" data="./icons/meet-fish_icon.svg"></object>
+                        </div>
+                    </div>
+
+                    <div class="foto-card foto-card6">
+                        <img class="fotocard1_img" src="./img/animals/Rectangle 5 (5).png" alt="fotocard6_img">
+                        <p class="foto-card_text">Penguins</p>
+                        <p class="foto-card_text1">Native to Antarctica</p>
+                        <div class="banan_meat_ico banan_meat_ico6">
+                            <!-- <object type="image/svg+xml"class="banana-bamboo_ico banana-bamboo_ico6" data="./icons/banana-bamboo_icon.svg"></object> -->
+                            <object type="image/svg+xml"class="meet-fish_ico meet-fish_ico6" data="./icons/meet-fish_icon.svg"></object>
+                        </div>
+                    </div>
+
+                    <div class="foto-card foto-card7">
+                    </div>
+                    <div class="foto-card foto-card8">
+                    </div>
+                </div>
+            </section>
+            
+            <div class="left_arrow_near_sectiom3">
+                <div class="circle_arrow"></div>
+                <object type="image/svg+xml"class="arrow1" data="./arrows/Vector (1).svg"></object>
+            </div>
+            <div class="right_arrow_near_sectiom3">
+                <div class="circle_arrow"></div>
+                <object type="image/svg+xml"class="arrow2" data="./arrows/Vector (2).svg"></object>
+            </div>
+            
+            <button class="button_under_section3"><a class="button_under_section3_text">choose your favorite</a></button>
+
+            <img class="palm_foto" src="./img/palm_foto.png" alt="palm-foto">
+            <img class="strelitzia" src="./img/strelitzia 1.png" alt="strelitzia">
+
+            <section class="section4">
+                <div class="gradiet_rectangle"></div>
+                    <div class="section4_bg">
+                        <p class="section4_text1">Pick and feed a friend</p>
+                        <p class="section4_text2">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
+                        <p class="section4_text3">During a time when the COVID-19 epidemic is touching all of our lives, we’re proud and glad that people around the world find joy in PetStory.</p>
+                        <p class="section4_text4">Even though the zoo has reopened, we need you now more than ever to help us deal with these problems. Please consider a gift to our Emergency Support Fund . </p>
+                        <div class="rectangle_underline"></div>
+                        <p class="section4_text5">How it works</p>
+                        <div class="widjet widjet1">
+                            <div class="widjet_rectangle"></div>
+                            <object type="image/svg+xml"class="pay_a_card-vector" data="./icons/pay.svg"></object>
+                            <p class="widjet_text widjet1_text">Pay with card</p>
+                        </div>
+                        <object type="image/svg+xml"class="widjet_arrow widjet_arrow1" data="./arrows/arrow_widjet.svg"></object>
+                        <div class="widjet widjet2">
+                            <div class="widjet_rectangle"></div>
+                            <object type="image/svg+xml"class="zoo-vector" data="./icons/zoo.svg"></object>
+                            <p class="widjet_text widjet2_text">Payment goes to the zoo</p>
+                        </div>
+                        <object type="image/svg+xml"class="widjet_arrow widjet_arrow2" data="./arrows/arrow_widjet.svg"></object>
+                        <div class="widjet widjet3">
+                            <div class="widjet_rectangle"></div>
+                            <object type="image/svg+xml"class="monkey-vector" data="./icons/monkey.svg"></object>
+                            <p class="widjet_text widjet3_text">Your favourite animal gets delicious dish</p>
+                        </div>
+                        <botton class="feed-a-friend_button"><a class="feed-a-friend_text">Feed a friend now</a></botton>
+                    </div>
+            </section>
+
+            <section class="section5">
+                <p>Testimonials</p>
+                <div class="testimonials testimonials1">
+                    <div class="user_ico"></div>
+                    <p class="user_name">Michael John</p>
+                    <p class="day">Today</p>
+                    <p class="point">•</p>
+                    <p class="location">Local Austria</p>
+                    <p class="comment_text">The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.
+                        The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.
+                        </p>
+                </div>
+                <div class="testimonials testimonials1">
+                    <div class="user_ico"></div>
+                    <p class="user_name">Oskar Samborsky</p>
+                    <p class="day">Yesterday</p>
+                    <p class="point">•</p>
+                    <p class="location">Local Austria</p>
+                    <p class="comment_text">The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.
+                        The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.                        
+                        </p>
+                </div>
+                <div class="testimonials testimonials1">
+                    <div class="user_ico"></div>
+                    <p class="user_name">Fredericka Michelin</p>
+                    <p class="day">Yesterday</p>
+                    <p class="point">•</p>
+                    <p class="location">Local Austria</p>
+                    <p class="comment_text">The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.
+                        The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.
+                        </p>
+                </div>
+                <div class="testimonials testimonials1">
+                    <div class="user_ico"></div>
+                    <p class="user_name">Mila Riksha</p>
+                    <p class="day">Yesterday</p>
+                    <p class="point">•</p>
+                    <p class="location">Local Austria</p>
+                    <p class="comment_text">The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.
+                        The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.
+                        </p>
+                </div>
+                <div class="line_scrol"></div>
+                <div class="feed-back">
+                    <div class="feed-back_rectangle"></div>
+                    <button class="feed-back_botton"><a>leave feedback</a></button>
+                </div>
+            </section>
+            <div class="rectangle26"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="fotter_wrapper wrapper">
+            <div class="header-logo">
+                <div class="header-log_rectangle">
+                    <p class="header-log_inf">PetStory online</p>
+                    <div class="logo_bamboo"></div>
+                </div>
+            </div>
+            <p>Subscribe to our news</p>
+            <div class="entr_u_email"></div>
+            <div class="submit">
+                <button class="submit_button"></button>
+                <div class="rectangle_submit"></div>
+            </div>
+            <div class="donate_for_vol">
+                <button class="donate_for_vol_buttom"></button>
+                <div class="donate_for_vol_rectangle"></div>
+            </div>
+            <a>Facebook</a>
+            <div class="vector_facebock"></div>
+            <a>Twitter</a>
+            <div class="vector_Twitter"></div>
+            <a>Instagram</a>
+            <div class="vector_Instagram"></div>
+            <a>YouTube</a>
+            <div class="vector_YouTube"></div>
+
+            <a class="fotter-nav">About</a>
+            <a class="fotter-nav">Map</a>
+            <a class="fotter-nav">Zoos</a>
+            <a class="fotter-nav">Contact us</a>
+
+            <a class="fotter_link">Designed by Redlin Dmitry</a>
+            <a class="fotter_link">©RSSchool & ©Yem Digital 2021</a>
+        </div>
+    </footer>
+</body>
+</html>
