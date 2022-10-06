@@ -1,0 +1,342 @@
+@media only screen and (max-width: 1000px) {
+    /*header*/
+
+    .hd_wrapper {
+        width: 1000px;
+        height: 80px;
+    }
+    .header-logo {
+        margin: 14px 0 0 30px;
+    }
+
+    .nav1 {
+        margin: 29px 0px 29px 175px;   
+    }
+    .nav2 {
+        margin: 29px 0px 29px 48px;  
+    }
+    .nav3 {
+        margin: 29px 0px 29px 48px; 
+    }
+    .nav4 {
+        margin: 29px 0px 29px 48px; 
+    }
+    .nav5 {
+        margin: 29px 0px 29px 48px; 
+        width: 77px;
+        height: 22px;
+    }
+    .nav6 {
+        margin: 29px 0px 29px 259px;
+    }
+    /*header*/
+    
+    /*main*/
+    /*section1*/
+
+    .section1 {
+        height: 584px;
+    }
+    .bq_giant-panda {
+        height: 584px;
+        height: 584px;
+        left: -99px;
+        right: -99px;
+    }
+    .logo_circle {
+        width: 367px;
+        height: 367px;
+        margin: 69px 0 0 456px;
+        z-index: -1;
+    }
+    .logo_circle_text {
+        width: 400.25px;
+        height: 320px;
+        font-weight: 700;
+        font-size: 85px;
+        line-height: 75%;
+        margin: 122px 0 0 514px;
+    }
+    .wm_button {
+        margin: 483px 0 0 565px;
+    }
+
+    /*section1*/
+
+    /*section2*/
+    .section2 {
+        height: 427px;
+        margin: 100px 0 0 30px;
+    }
+    .bamboo-cap_img {
+        width: 0px;
+        height: 0px;
+    }
+    .bamboo-cap_img_tablet {
+        margin: 9px 0 0 0;
+        width: 455px;
+        height: 408px;
+    }
+    .text1 {
+        margin: 0 0 0 486px;
+    }
+    .text2 {
+        margin: 136px 0 0 486px;
+    }
+    .text3 {
+        margin: 232px 0 0 486px;
+    }
+    .text4 {
+        margin: 295px 0 0 486px;
+    }
+    .flower_foto1 {
+        width: 0;
+        left: 0px;
+        z-index: -1;
+        visibility: hidden;
+    }
+    /*section2*/
+
+    /*section3*/
+    .section3 {
+        margin: 142px 0 0 30px;
+        height: 801px;
+    }
+    .scroll-animals {
+        position: absolute;
+        height: 801px;
+    }
+    .fotocard1_img {
+        width: 295px;
+        height: 295px;
+    }
+    .foto-card {
+        width: 295px;
+        height: 354px;
+        border-radius: 5px;
+    }
+    .foto-card1 {
+        margin: 0 0 0 0;
+    }
+    .foto-card2 {
+        margin: 0 0 0 323px;
+    }
+    .foto-card3 {
+        margin: 446px 0 0 0; 
+    }
+    .foto-card4 {
+        visibility: hidden;
+    }
+    .foto-card5 {
+        margin: 0 0 0 647px; 
+    }
+    .foto-card6 {
+        margin: 446px 0 0 647px;
+    }
+    .foto-card7 {
+        visibility: visible;
+        margin: 446px 0 0 323px;
+    }
+
+    .foto-card_text {
+        margin: 302px 0 0 16px;
+    }
+    .foto-card_tex1 {
+        margin: 0 0 20px 16px;
+    }
+    .banana-bamboo_ico {
+        left: 247px;
+        top: 302px;
+    }
+    .meet-fish_ico {
+        left: 237px;
+        top: 304px;
+    }
+    .left_arrow_near_sectiom3 {
+        margin: -430px 0 0 353px;
+    }
+    .right_arrow_near_sectiom3 {
+        margin: -430px 0 0 586px;
+    }
+
+    .button_under_section3 {
+        margin: 80px 0 0 351px;
+    }
+
+
+
+    .palm_foto {
+        visibility: hidden;
+    }
+    .palm_foto1 {
+        visibility: visible;
+        margin: 72px 0 0 0;
+    }
+    .strelitzia {
+        width: 241px;
+        height: 180px;
+        margin: 94px 0 0 759px;
+    }
+    .section4 {
+        width: 1000px;
+        height: 876px;
+    }
+    .gradiet_rectangle {
+        height: 876px;
+        width: 1000px;
+    }
+    .section4_bg {
+        height: 796px;
+        width: 940px;
+        margin: 30px 0 0 30px;
+    }
+    .section4_text1 {
+        left: calc(50% - 463px/2 + 0.5px);
+    }
+    .section4_text2 {
+        width: 843px;
+        margin: 108px 0 0 49px;
+    }
+    .section4_text3 {
+        width: 813px;
+        margin: 157px 0 0 49px;
+    }
+    .section4_text4 {
+        width: 823px;
+        margin: 209px 0 0 49px;
+    }
+    .rectangle_underline {
+        width: 178px;
+        height: 1px;
+        margin: 250px 0 0 190px;
+    }
+    .section4_text5 {
+        margin: 291px 0 0 366px;
+    }
+    .widjet {
+        margin: 378px 0 0 0;
+    }
+    .widjet_arrow1 {
+        margin: 439px 0 0 287px;
+    }
+    .widjet_arrow2 {
+        margin: 439px 0 0 584px;
+    }
+    .feed-a-friend_button {
+        margin: 692px 0 0 0;
+    }
+
+
+    .section5 {
+        width: 940px;
+        height: 468px;
+        margin: 100px 0 0 30px;
+    }
+    .section5_main_text {
+        margin: 0 0 0 367px;
+    }
+    .testimonials {
+        width: 293px;
+        margin: 77px 0 0 0;
+    }
+    .testimonials1 {
+        visibility: hidden;
+        width: 0px;
+    }
+    .testimonials2 {
+        left: calc(50% - 293px/2 - 323.5px);
+    }
+    .testimonials3 {
+        left: calc(50% - 293px/2 - 0.5px);
+    }
+    .testimonials4 {
+        left: calc(50% - 294px/2 + 323px);
+    }
+
+    .line_scrol {
+        width: 390px;
+        height: 8px;
+        margin: 485px 0 0 270px;
+    }
+    .line_scrol1 {
+        width: 390px;
+        height: 8px;
+    }
+    .line_scrol2 {
+        width: 75px;
+        height: 6px;
+    }
+    .leav_foto {
+        height: 240px;
+        margin: 35px 0 0 855px;
+    }
+    .footer {
+        position: relative;
+        width: 1000px;
+        height: 443px;
+        background: #111115;
+    }
+    .footer_wrapper {
+        position: absolute;
+        width: 939px;
+        height: 353px;
+    }
+    .header-logo2 {
+        margin: 41px 0 0 44px;
+    }
+    .footer_sub_text {
+        position: absolute;
+        width: 237px;
+        height: 29px;
+        margin: 40px 0 0 584px;
+    }
+    .entr_u_email {
+        margin: 83px 0 0 584px;
+    }
+    .submit {
+        margin: 83px 0 0 821px;
+    }
+    .donate_for_vol {
+        margin: 161px 0 0 44px;
+    }
+    .rectangle_Facebook {
+        margin: 259px 0 0 44px;
+    }
+    .rectangle_Twitter {
+        margin: 295px 0 0 44px;
+    }
+    .rectangle_Instagram {
+        margin: 331px 0 0 44px;
+    }
+    .rectangle_YouTube {
+        margin: 367px 0 0 44px;
+    }
+    .fotter-nav {
+        margin: 371px 0 0 0;
+    }
+    .fotter-nav1 {
+        left: calc(50% - 43px/2 - 157px);
+    }
+    .fotter-nav2 {
+        left: calc(50% - 32px/2 - 71.5px);
+    }
+    .fotter-nav3 {
+        left: calc(50% - 36px/2 + 10.5px);
+    }
+    .fotter-nav4 {
+        left: calc(50% - 77px/2 + 115px);
+    }
+    .fotter_link1 {
+        margin: 301px 0 0 711px;
+    }
+    .fotter_link2 {
+        margin: 332px 0 0 711px;
+    }
+    /*main*/
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+}

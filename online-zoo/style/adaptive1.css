@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1000px) {
+
+    .hd_wrapper {
+        width: 1000px;
+        height: 80px;
+    }
+    .header-logo {
+        margin: 14px 0 0 30px;
+    }
+
+    .nav1 {
+        margin: 29px 0px 29px 175px;   
+    }
+    .nav2 {
+        margin: 29px 0px 29px 48px;  
+    }
+    .nav3 {
+        margin: 29px 0px 29px 48px; 
+    }
+    .nav4 {
+        margin: 29px 0px 29px 48px; 
+    }
+    .nav5 {
+        margin: 29px 0px 29px 48px; 
+        width: 77px;
+        height: 22px;
+    }
+    .nav6 {
+        margin: 29px 0px 29px 259px;
+    }
+    
+    .panda_bg {
+        height: 390px;
+        margin: 0 0 0 -172px;
+    }
+
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+}
